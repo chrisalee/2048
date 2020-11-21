@@ -1,0 +1,51 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    background-color: #9ca5be;
+}
+
+.grid div {
+    width: 138px;
+    height: 138px;
+    background-color: #ebebeb;
+    margin: 5px;
+    text-align: center;
+    color: #afa192;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    line-height: 3.5;
+    border: 1px solid #ffffff;
+    /* border-bottom: 2px solid #ffffff; */
+    box-shadow: 5px 5px 5px #8d8d8d;
+}
+
+.title-heading {
+    margin-left: 40px;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: #0c0170;
+}
+
+.score-container {
+    color: #0a7001;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 280px;
+    margin-top: 30px;
+}
+
+#score {
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#result {
+    margin-left: 150px;
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 315px;
+    padding: 0 15px;
+}
